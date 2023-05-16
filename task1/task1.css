@@ -1,0 +1,45 @@
+section{
+    height: 600px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#box{
+    height: 500px;
+    width: 310px;
+    background: rgb(19,18,18);
+    background: linear-gradient(0deg, rgba(19,18,18,1) 0%, rgba(167,11,11,1) 78%);
+    color:aliceblue;
+    border-radius: 5%;
+    text-align: center;
+}
+img{
+    border-radius: 50%;
+    margin:20px;
+}
+hr{
+    
+    transform: rotate(6deg);
+}
+#div1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+#social{
+    text-decoration: none;
+    color: wheat;
+}
+#social:hover{
+    transform: rotate(180deg);
+    
+}
+
+@media screen and (max-width:1400px){
+    section{
+        display: flex;
+    }
+}
